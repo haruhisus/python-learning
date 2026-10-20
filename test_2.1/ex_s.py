@@ -1,0 +1,7 @@
+name, price, weight, cash = input(), int(input()), int(input()), int(input())
+print(f"{'Чек':=^35}")
+print(f"{'Товар:':<8}{name:>27}")
+print(f"{'Цена:':<8}{f'{weight}кг * {price}руб/кг':>27}")
+print(f"{'Итого:':<8}{f'{weight * price}руб':>27}")
+print(f"{'Внесено:':<8}{f'{cash}руб':>27}")
+print(f"{'Сдача:':<8}{f'{cash - weight * price}руб':>27}\n{'=' * 35}")
