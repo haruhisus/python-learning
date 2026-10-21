@@ -9,7 +9,7 @@ for i in range(int(input())):
     if (h != (37 * (m + r + h_prev)) % 256 or h >= 100) and flag:
         fake_block = i
         flag = False
-    else:
+    elif flag:
         h_prev = h
 print(-1 if flag else fake_block)
     
