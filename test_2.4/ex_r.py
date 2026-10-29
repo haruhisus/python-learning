@@ -1,6 +1,6 @@
 num_max = rest = int(input())
 row = num = 1
-k = 4
+k = 0
 
 while rest > k + 1:
     k += 1
